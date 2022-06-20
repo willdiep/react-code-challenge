@@ -1,5 +1,5 @@
 {
-  "name": "scoutside-react-coding-challenge",
+  "name": "react-coding-challenge",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,6 +11,8 @@
     "react-dom": "^18.2.0",
     "react-redux": "^8.0.2",
     "react-scripts": "5.0.1",
+    "sass": "^1.52.3",
+    "uuid": "^8.3.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

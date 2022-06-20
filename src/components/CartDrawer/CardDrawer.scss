@@ -1,0 +1,52 @@
+.CartDrawer__menu {
+  background-color: var(--white);
+  bottom: 0;
+  height: 100%;
+  max-width: 300px;
+  overflow: hidden;
+  position: fixed;
+  right: 0;
+  top: 0;
+  transform: translateX(100%);
+  transition: 0.3s ease all;
+  width: 100%;
+  z-index: 1;
+
+  &.open {
+    transform: translateX(0);
+  }
+}
+
+.CardDrawer__closeButton {
+  background: none;
+  border: none;
+  color: var(--black);
+  cursor: pointer;
+  font-size: 25px;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+
+  &:hover {
+    color: var(--gray);
+  }
+}
+
+.CartDrawer__inner {
+  padding: 70px 40px;
+}
+
+.CardDrawer__list {
+  padding: 0;
+}
+
+.CardDrawer__item {
+  list-style-type: none;
+  margin-bottom: 20px;
+  border-bottom: solid 1px var(--light-gray);
+  padding-bottom: 20px;
+}
+
+.CardDrawer__content:not(:last-child) {
+  margin-bottom: 10px; 
+}
